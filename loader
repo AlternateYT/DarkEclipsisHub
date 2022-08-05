@@ -1,4 +1,4 @@
-local LoadingGui = Instance.new("CoreGui")
+local LoadingGui = Instance.new("ScreenGui")
 local LoadingFrame = Instance.new("Frame")
 local Title = Instance.new("TextLabel")
 local Description = Instance.new("TextLabel")
@@ -7,7 +7,7 @@ local InnerBar = Instance.new("Frame")
 local Loading = Instance.new("TextLabel")
 
 LoadingGui.Name = "LoadingGui"
-LoadingGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+LoadingGui.Parent = game:GetService("CoreGui")
 LoadingGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 LoadingFrame.Name = "LoadingFrame"
