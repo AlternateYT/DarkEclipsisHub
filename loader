@@ -1,4 +1,4 @@
-local LoadingGui = Instance.new("ScreenGui")
+local LoadingGui = Instance.new("CoreGui")
 local LoadingFrame = Instance.new("Frame")
 local Title = Instance.new("TextLabel")
 local Description = Instance.new("TextLabel")
